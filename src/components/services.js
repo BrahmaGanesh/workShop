@@ -7,7 +7,7 @@ const ServicesPreview = () => {
 
  useEffect(() => {
   try{
-    fetch("http://localhost:5000/services")
+    fetch("https://raw.githubusercontent.com/BrahmaGanesh/workShop/refs/heads/main/problem.json")
     .then((res)=>{return res.json()})
     .then((data)=>{
       setServices(data)

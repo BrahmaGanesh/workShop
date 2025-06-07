@@ -1,0 +1,94 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Lathe Work",
+      "desc": "Shaft turning, threading, bush fitting, keyway slotting, etc.",
+      "image": "/images/lathe.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Motor Repairs",
+      "desc": "Rewinding, servicing, capacitor replacement and bearing changes.",
+      "image": "/images/motor.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Welding Works",
+      "desc": "Arc/gas welding, fabrication, and pipe joint welding.",
+      "image": "/images/welding.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Heavy Spring Loader Repair",
+      "desc": "Fixing industrial spring loaders and alignment works.",
+      "image": "/images/springloaded.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Hydraulic Works",
+      "desc": "Repair and maintenance of hydraulic pumps and pistons.",
+      "image": "/images/hydraulic.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Iron Gate Welding",
+      "desc": "Welding and fabrication of custom iron gates and grills.",
+      "image": "/images/irongates.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Fabrication Works",
+      "desc": "Structure, frame, and sheet metal fabrication services.",
+      "image": "/images/hydraulic.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Water Pump Repairs",
+      "desc": "Repairing domestic and industrial water pumps and motors.",
+      "image": "/images/motor.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Pulley & Belt Services",
+      "desc": "Pulley alignment, belt replacement, and custom fitting.",
+      "image": "/images/springloaded.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Steel Furniture Repairs",
+      "desc": "Fixing steel tables, chairs, racks, and cabinets.",
+      "image": "/images/irongates.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Grinder & Cutting Tools Repair",
+      "desc": "Servicing cutting machines, angle grinders, and drill bits.",
+      "image": "/images/lathe.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Gearbox Works",
+      "desc": "Inspection and repair of lathe and motor gearboxes.",
+      "image": "/images/logo.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Industrial Machine Setup",
+      "desc": "Installation and alignment of heavy-duty machinery.",
+      "image": "/images/motor.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Compressor Repair",
+      "desc": "Air compressor overhauling and part replacements.",
+      "image": "/images/hydraulic.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Pipe Cutting & Bending",
+      "desc": "Precision pipe cutting and angle-based bending services.",
+      "image": "/images/lathe.jpg"
+    }
+  ]
+}
