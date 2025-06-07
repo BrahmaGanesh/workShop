@@ -9,7 +9,7 @@ const Contact = () => {
   const [problem, setProblem] = useState("")
   const SubmitHandele=async(e)=>{
     try{
-      const res= await fetch("http://localhost:5000/Problem",
+      const res= await fetch("https://raw.githubusercontent.com/BrahmaGanesh/workShop/refs/heads/main/problem.json",
         {
           method: "POST",
           headers: {

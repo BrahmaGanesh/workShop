@@ -7,10 +7,10 @@ const ServicesPreview = () => {
 
  useEffect(() => {
   try{
-    fetch("https://raw.githubusercontent.com/BrahmaGanesh/workShop/refs/heads/main/problem.json")
+    fetch("https://raw.githubusercontent.com/BrahmaGanesh/workShop/refs/heads/main/services.json")
     .then((res)=>{return res.json()})
     .then((data)=>{
-      setServices(data)
+      setServices(data.services)
     })
   }catch(error){
     console.log(error)
