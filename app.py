@@ -5,6 +5,11 @@ from db_config import myConnection
 app=Flask(__name__)
 app.secret_key="ganesh123"
 CORS(app)
+
+@app.route('/')
+def home():
+    return "Hello, world!"  # Or render a template
+
 @app.route("/api/problems",methods=["GET","POST"])
 def problem():
   data = request.json
