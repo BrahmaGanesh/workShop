@@ -1,6 +1,6 @@
 from flask import Flask, request,jsonify
 from flask_cors import CORS
-from lathe.db_config import myConnection
+from db_config import myConnection
 
 app=Flask(__name__)
 app.secret_key="ganesh123"
