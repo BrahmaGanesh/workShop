@@ -127,7 +127,55 @@ button{
 #card-det{
   padding: 15px;
 }
+.logo img{
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.menu{
+  display: none;
+  font-size: 20px;
+  align-items: center;
+}
+.menu p{
+  /* background-color: #00ff4c; */
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
+.menu p:hover .drop-down li{
+  display: block;
+}
+.drop-down li{
+  display: none;
+  background-color: #FFD700;
+  color: black;
+  position: relative;
+  z-index: 22;
+  text-align: center;
+}
+.drop-down li a{
+  display: block;
+  padding: 10px 15px;
+}
+.drop-down li a:hover{
+  background-color: blanchedalmond;
+}
 @media only screen and (max-width: 485px) {
+  .logo img{
+    width: 40px;
+    height: 40px;
+  }
+  .menu{
+    display:block;
+  }
+  header{
+    justify-content: space-around;
+  }
+  .logo h2{
+    font-size: 15px;
+    font-weight: bold;
+  }
   nav{
     display: none;
   }
@@ -152,7 +200,6 @@ button{
     height: 145px;
     font-size: 0.5rem;
   }
-
   #card img{
     width: 115px;
     height: 80px;

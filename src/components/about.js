@@ -8,7 +8,7 @@ function About(){
     <section style={styles.section}>
       <h2 style={styles.heading}>About Us</h2>
       <p style={styles.text}>
-        With over 10 years of experience, Ganesh Workshop offers expert lathe machining,
+        With over 10 years of experience, NEW SRI RAMA LATHE WORKS offers expert lathe machining,
         motor repairs, and welding services. Trusted by locals for reliable, affordable, and quality work.
       </p>
       <a href="/about" style={styles.button}>Learn More</a>

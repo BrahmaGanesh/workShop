@@ -4,8 +4,8 @@ const HeroSection = () => {
    <>
     <section style={styles.hero}>
       <div style={styles.overlay}>
-        <h1 style={styles.heading}>Ganesh Workshop</h1>
-        <p style={styles.subheading}>Precision Lathe • Motor Repair • Welding</p>
+        <h1 style={styles.heading}>NEW SRI RAMA LATHE WORKS</h1>
+        <p style={styles.subheading}>Lathe Works • Motor Repair • Welding</p>
         <a href="#services" style={styles.button}>Explore Services</a>
       </div>
     </section>
@@ -26,13 +26,14 @@ const HeroSection = () => {
 
 const styles = {
   hero: {
-    backgroundImage: `url(../images/shop.jpg)`, // replace with your image
+    backgroundImage: `url(../images/shops.jpg)`, // replace with your image
     backgroundSize: '',
     backgroundRepeat: "no-repeat",
     backgroundPosition: 'center',
     height: '80vh',
     position: 'relative',
     color: '#FFD700',
+    width:"100vw",
   },
   overlay: {
     backgroundColor: 'rgba(0, 0, 0, 0.6)',

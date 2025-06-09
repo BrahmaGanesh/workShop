@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Footer from './footer';
 import Navbar from './header';
 
@@ -7,29 +7,43 @@ const Contact = () => {
   const [phone, setPhone] = useState("")
   const [email, setEmail] = useState("")
   const [problem, setProblem] = useState("")
-  const SubmitHandele=async(e)=>{
+  const [data,setData]= useState({
+    name:"",
+    phone:"",
+    email:"",
+    problem:""
+  })
+  useEffect(()=>{
     try{
-      const res= await fetch("https://raw.githubusercontent.com/BrahmaGanesh/workShop/refs/heads/main/problem.json",
+      fetch("http://127.0.0.1:5000/api/problems",
         {
           method: "POST",
-          headers: {
+          headers:{
             "Content-Type": "application/json"
           },
           body: JSON.stringify({
-            name:name,
-            email:email,
-            phone:phone,
-            problem:problem,
+            name:data.name,
+            phone:data.phone,
+            email:data.email,
+            problem:data.problem,
           })
         }
-      )
-
-      const result=await res.json()
-      console.log(result)
+      ).then((res)=>{return res.json})
+      .then((data)=>{
+        console.log(data)
+      })
     }catch (error){
       console.log(error)
     }
+  },[data])
+  const SubmitHandele=(e)=>{
     e.preventDefault()
+     setData({
+      name:name,
+      phone:phone,
+      email:email,
+      problem:problem
+    })
     setEmail("")
     setName("")
     setPhone("")

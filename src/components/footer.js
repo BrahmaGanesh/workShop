@@ -4,24 +4,24 @@ function Footer(){
      <footer style={styles.footer}>
       <div style={styles.container}>
         <div style={styles.left}>
-          <h2 style={styles.logo}>SRI RAMA LATHE WORK SHOP</h2>
-          <p>Lathe • Motor Repair • Welding</p>
+          <h2 style={styles.logo}>NEW SRI RAMA LATHE WORKS</h2>
+          <p>Lathe Works • Motor Repair • Welding</p>
           <p style={styles.tagline}>Precision. Power. Performance.</p>
         </div>
 
         <div style={styles.center}>
           <h4 style={styles.heading}>Quick Links</h4>
           <ul style={styles.list}>
-            <li><a href="about">About</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="/">Services</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
 
         <div style={styles.right}>
           <h4 style={styles.heading}>Contact</h4>
           <p>📍 Sullurpeta, Tirupati (dist) ,Ap - 524121 </p>
-          <p>📞 +91-9989338605</p>
+          <p>📞 +91-9640254545</p>
           <p>📧 katrapallibrahmaganesh@email.com</p>
         </div>
       </div>
